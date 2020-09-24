@@ -1,30 +1,14 @@
 <template>
-  <div>
-    <div>
-      <el-container>
-        <el-aside>
-          <asidesss></asidesss>
-        </el-aside>
-        <el-container>
-          <cont></cont>
-        </el-container>
-      </el-container>
-    </div>
-  </div>
+  <div>/goods/admin/create</div>
 </template>
 
 <script>
-import asidesss from "../components/aside";
-import cont from "../components/cont";
 export default {
   name: "",
   //接收父组件传递过来的参数
   props: {},
   //注册组件
-  components: {
-    asidesss,
-    cont,
-  },
+  components: {},
   // 定义变量
   data() {
     return {};
